@@ -8,11 +8,10 @@ salary_file_path = '2017-18_NBA_salary.csv'
 salary_data = pd.read_csv(salary_file_path)
 
 #visualising the data
-
-#salary_data.Salary.hist(bins=40, alpha=1.0)
-#plt.title("NBA Players' Salaries in 2017-18 Season Histogram")
-#plt.xlabel("Salary($)")
-#plt.ylabel("Frequency")
+salary_data.Salary.hist(bins=40, alpha=1.0)
+plt.title("NBA Players' Salaries in 2017-18 Season Histogram")
+plt.xlabel("Salary($)")
+plt.ylabel("Frequency")
 
 #feature selection
 
